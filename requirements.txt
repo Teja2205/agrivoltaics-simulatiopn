@@ -1,4 +1,4 @@
- Web Framework and API
+#Web Framework and API
 fastapi
 uvicorn
 pydantic
@@ -47,4 +47,4 @@ pytest-cov
 pytest-asyncio
 factory-boy
 faker
-EOF
+
