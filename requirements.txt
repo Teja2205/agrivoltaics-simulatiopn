@@ -1,0 +1,63 @@
+# Web Framework and API
+fastapi==0.95.1
+uvicorn==0.22.0
+pydantic==1.10.7
+starlette==0.26.1
+python-multipart==0.0.6
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+httpx==0.24.0
+
+# Database
+sqlalchemy==2.0.12
+psycopg2-binary==2.9.6
+alembic==1.10.4
+greenlet==2.0.2
+
+# Task Queue and Caching
+celery==5.3.0
+redis==4.5.5
+flower==1.2.0
+
+# Data Science and Machine Learning
+numpy==1.24.3
+pandas==2.0.1
+scipy==1.10.1
+scikit-learn==1.2.2
+tensorflow==2.12.0
+xgboost==1.7.5
+prophet==1.1.4
+statsmodels==0.14.0
+
+# Utilities
+python-dotenv==1.0.0
+pyyaml==6.0
+joblib==1.2.0
+tqdm==4.65.0
+requests==2.29.0
+
+# Data Visualization
+matplotlib==3.7.1
+seaborn==0.12.2
+plotly==5.14.1
+
+# Testing
+pytest==7.3.1
+pytest-cov==4.1.0
+pytest-asyncio==0.21.0
+factory-boy==3.2.1
+faker==18.4.0
+
+# Development
+black==23.3.0
+isort==5.12.0
+flake8==6.0.0
+mypy==1.2.0
+pre-commit==3.3.1
+
+# Documentation
+mkdocs==1.4.3
+mkdocs-material==9.1.5
+
+# AWS (Optional - For Deployment)
+boto3==1.26.129
