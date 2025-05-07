@@ -1,0 +1,172 @@
+/* Create styles/dashboard.module.css */
+.container {
+  min-height: 100vh;
+  background-color: #f9fafb;
+}
+
+.header {
+  background-color: #1e40af;
+  color: white;
+  padding: 2rem 0;
+}
+
+.headerContent {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.title {
+  font-size: 1.875rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.subtitle {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.mainContent {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 1.5rem 1rem;
+}
+
+.statContainer {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+@media (min-width: 640px) {
+  .statContainer {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .statContainer {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.tabs {
+  display: flex;
+  border-bottom: 1px solid #e5e7eb;
+  margin-bottom: 1.5rem;
+  overflow-x: auto;
+}
+
+.tab {
+  padding: 0.75rem 1rem;
+  font-weight: 500;
+  color: #6b7280;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.tab:hover {
+  color: #1e40af;
+}
+
+.activeTab {
+  padding: 0.75rem 1rem;
+  font-weight: 500;
+  color: #1e40af;
+  border-bottom: 2px solid #1e40af;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.card {
+  background-color: white;
+  border-radius: 0.5rem;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.cardTitle {
+  display: flex;
+  align-items: center;
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.cardIcon {
+  height: 1.25rem;
+  width: 1.25rem;
+  margin-right: 0.5rem;
+}
+
+.chartContainer {
+  height: 300px;
+  margin-top: 1rem;
+}
+
+.splitContainer {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .splitContainer {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.threeColContainer {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+}
+
+@media (min-width: 1024px) {
+  .threeColContainer {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+.formGroup {
+  margin-bottom: 1rem;
+}
+
+.inputLabel {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.slider {
+  width: 100%;
+}
+
+.select {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #d1d5db;
+  border-radius: 0.375rem;
+}
+
+.alertContainer {
+  padding: 1rem;
+  border-radius: 0.375rem;
+}
+
+.alertSuccess {
+  background-color: #d1fae5;
+  border-left: 4px solid #10b981;
+}
+
+.alertWarning {
+  background-color: #fef3c7;
+  border-left: 4px solid #f59e0b;
+}
+
+.alertInfo {
+  background-color: #dbeafe;
+  border-left: 4px solid #3b82f6;
+}
